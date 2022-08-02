@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-import './App.css';
+import './App.scss';
 import PageHeader from './components/PageHeader';
 import UsernameComponent from './components/UsernameComponent';
 import MessageList from './components/MessageList';
@@ -49,7 +49,7 @@ function App() {
         - '/chat/connected_users' for connected users. 
     Each of the subscribe function calls take an endpoint and one of the handler functions defined above it.
     */
-   
+
     const changeConnectedUsers = (connectedUserList) => {
         console.log('Connected User List: ', connectedUserList);
         const names = Object.entries(connectedUserList.connectedUsers).map((kvp) => kvp[1].displayName);
