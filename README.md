@@ -7,6 +7,7 @@ This is a Maven project for simple real-time chat application using SpringBoot f
 ## Prerequisites
 
 - Maven Dependencies for pom.xml<br/>
+
   ```xml
         <dependencies>
         <dependency>
@@ -29,13 +30,15 @@ This is a Maven project for simple real-time chat application using SpringBoot f
 ## Running the Application
 
 - Clone the repository to your local device.
+
   ```git
   git clone https://github.com/sthsuyash/Chat-Us.git
   ```
 
 - Run the Application using IntelliJ IDEA or STS.
+
   ```mvn
-  mvn clean package  
+  mvn clean package
   ```
 
   ```mvn
@@ -68,8 +71,6 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
-
-[Comment]: <> (## Citation)
 
 ## Contact
 
